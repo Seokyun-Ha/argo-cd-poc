@@ -4,6 +4,6 @@ repositories:
 
 releases:
   - chart: bitnami/nginx
-    version: 4.1.0
+    version: 15.1.0
     name: simple-nginx-helm
     namespace: default
