@@ -1,0 +1,9 @@
+repositories:
+  - name: bitnami
+    url: oci://registry-1.docker.io/bitnamicharts
+
+releases:
+  - chart: bitnami/nginx
+    version: 4.1.0
+    name: simple-nginx-helm
+    namespace: default
